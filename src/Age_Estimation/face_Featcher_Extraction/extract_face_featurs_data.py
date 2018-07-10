@@ -7,6 +7,7 @@ import dlib
 import imutils
 import json
 import xlwt
+from xlrd import open_workbook
 
 facial_features_cordinates = {}
 
@@ -23,7 +24,7 @@ ws.write(0, 1, "Mouth Range", style0)
 ws.write(0, 2, "Two Eyebrow Range", style0)
 ws.write(0, 3, "Right Eyebrow Range", style0)
 ws.write(0, 4, "Left Eyebrow Range", style0)
-ws.write(0, 5, "Nose Range", style0)
+ws.write(0, 5, "Nose To Mouth Range", style0)
 ws.write(0, 6, "For Head Width", style0)
 ws.write(0, 7, "Mouth To Jaw Range", style0)
 
@@ -136,7 +137,7 @@ def visualize_facial_landmarks(image, shape, colors=None, alpha=0.75):
                 hull = cv2.convexHull(pts)
                 cv2.drawContours(overlay, [hull], -1, colors[i], 2)
                 cv2.putText(overlay, "Nose_To_Mouth_Range " + " : " + str(
-                    mouth_Range_Temp - int(facial_features_cordinates.get(name)) / 50 * 10)[:5] + " mm",
+                    mouth_Range_Temp - int(facial_features_cordinates.get(name)) / 100 * 10)[:5] + " mm",
                             (10, 30 + count), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
                 ws.write(1, 5, str(
                     mouth_Range_Temp - int(facial_features_cordinates.get(name)) / 50 * 10)[:5], style1)
@@ -164,6 +165,8 @@ def visualize_facial_landmarks(image, shape, colors=None, alpha=0.75):
     # return the output image
     # print(facial_features_cordinates)
     wb.save('../../../test_output/output_for_age/db_feature_data.xls')
+
+
     return output
 
 
@@ -171,7 +174,7 @@ def visualize_facial_landmarks(image, shape, colors=None, alpha=0.75):
 # the facial landmark predictor
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("../../../models/shape_predictor_68_face_landmarks.dat")
-image = cv2.imread("../../../test_data/test_Images/example_test_images_for_age/example_04.jpg")
+image = cv2.imread("../../../test_data/test_Images/example_test_images_for_age/wrinkles-old-man.jpg")
 
 image2 = image
 # load the input image, resize it, and convert it to grayscale
