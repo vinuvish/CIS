@@ -7,7 +7,6 @@ import dlib
 import imutils
 import json
 import xlwt
-from xlrd import open_workbook
 
 facial_features_cordinates = {}
 
@@ -137,7 +136,7 @@ def visualize_facial_landmarks(image, shape, colors=None, alpha=0.75):
                 hull = cv2.convexHull(pts)
                 cv2.drawContours(overlay, [hull], -1, colors[i], 2)
                 cv2.putText(overlay, "Nose_To_Mouth_Range " + " : " + str(
-                    mouth_Range_Temp - int(facial_features_cordinates.get(name)) / 100 * 10)[:5] + " mm",
+                    mouth_Range_Temp - int(facial_features_cordinates.get(name)) / 50 * 10)[:5] + " mm",
                             (10, 30 + count), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
                 ws.write(1, 5, str(
                     mouth_Range_Temp - int(facial_features_cordinates.get(name)) / 50 * 10)[:5], style1)

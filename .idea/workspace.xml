@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63356eb6-afe4-4864-8c73-7ce93944ba96" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/datasets_for_training/gender_dataset/imdb_db.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Emotion-Recognition" beforeDir="false" afterPath="$PROJECT_DIR$/src/Emotion-Recognition" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_output/output_for_age/db_feature_data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/test_output/output_for_age/db_feature_data.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_output/output_for_age/face_croped.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_output/output_for_age/face_croped.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +51,8 @@
       <file leaf-file-name="extract_face_featurs_data.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+            <state relative-caret-position="88">
+              <caret line="138" column="84" selection-start-line="138" selection-start-column="84" selection-end-line="138" selection-end-column="84" />
               <folding>
                 <element signature="e#32#67#0" expanded="true" />
               </folding>
@@ -441,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+        <state relative-caret-position="88">
+          <caret line="138" column="84" selection-start-line="138" selection-start-column="84" selection-end-line="138" selection-end-column="84" />
           <folding>
             <element signature="e#32#67#0" expanded="true" />
           </folding>
