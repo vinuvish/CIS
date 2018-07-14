@@ -8,6 +8,7 @@ import argparse
 import imutils
 import dlib
 import cv2
+from PIL.Image import Image
 
 # construct the argument parser and parse the arguments
 # ap = argparse.ArgumentParser()
@@ -21,11 +22,11 @@ import cv2
 # the facial landmark predictor
 detector = dlib.get_frontal_face_detector()
 # predictor = dlib.shape_predictor(args["shape_predictor"])
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("../../../models/shape_predictor_68_face_landmarks.dat")
 
 # load the input image, resize it, and convert it to grayscale
 # image = cv2.imread(args["image"])
-image = cv2.imread("images/example_04.jpg")
+image = cv2.imread("../../../test_output/output_for_age/face_croped.png")
 image = imutils.resize(image, width=500)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -55,6 +56,7 @@ for (i, rect) in enumerate(rects):
         # extract the ROI of the face region as a separate image
         (x, y, w, h) = cv2.boundingRect(np.array([shape[i:j]]))
         roi = image[y:y + h, x:x + w]
+
         roi = imutils.resize(roi, width=250, inter=cv2.INTER_CUBIC)
 
         # show the particular face part

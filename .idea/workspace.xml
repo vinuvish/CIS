@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63356eb6-afe4-4864-8c73-7ce93944ba96" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/wrinkles_normalize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/test_video/Visir.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Emotion-Recognition" beforeDir="false" afterPath="$PROJECT_DIR$/src/Emotion-Recognition" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/cnn_face_detection.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/cnn_face_detection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_fetchers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_fetchers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,57 +19,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="full_worlflow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py">
+      <file leaf-file-name="face_Wrinlkes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="emotion_detaction_image.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Emotion-Recognition/emotion_detaction_image.py">
+      <file leaf-file-name="wrinkles_normalize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/wrinkles_normalize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/training_models_gender/train_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extract_face_featurs_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="145" column="84" selection-end-line="210" />
-              <folding>
-                <element signature="e#32#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="41">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Nose_To_Mouth_Range</find>
+      <find>5</find>
+      <find>70</find>
     </findStrings>
+    <replaceStrings>
+      <replace>10</replace>
+      <replace>80</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,17 +63,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py" />
         <option value="$PROJECT_DIR$/src/Gender_Estimation/faceFeatcherRegionExtraction.py" />
         <option value="$PROJECT_DIR$/src/Gender_Estimation/feature_extraction_gender/feature_size.py" />
         <option value="$PROJECT_DIR$/src/Abnormal_Cloth_Detaction/cloth_classification_keras/Train_dataset/image_background_segmentation.py" />
         <option value="$PROJECT_DIR$/src/Abnormal_Cloth_Detaction/dataset_creator/background_remove.py" />
         <option value="$PROJECT_DIR$/src/Abnormal_Cloth_Detaction/cloth_classification_keras/test_network.py" />
-        <option value="$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py" />
         <option value="$PROJECT_DIR$/src/Emotion-Recognition/video_emotion_color_demo.py" />
         <option value="$PROJECT_DIR$/src/Emotion-Recognition/emotion_detaction_image.py" />
         <option value="$PROJECT_DIR$/src/Gender_Estimation/training_models_gender/train_data.py" />
         <option value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py" />
+        <option value="$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py" />
+        <option value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_fetchers.py" />
+        <option value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/test.py" />
+        <option value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/test2.py" />
+        <option value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py" />
+        <option value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/wrinkles_normalize.py" />
       </list>
     </option>
   </component>
@@ -133,13 +128,7 @@
               <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Emotion-Recognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Gender_Estimation" type="462c0819:PsiDirectoryNode" />
+              <item name="Criminal_Identification_System" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
@@ -162,7 +151,47 @@
             <path>
               <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIS" type="462c0819:PsiDirectoryNode" />
-              <item name="test_output" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
+              <item name="test_video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.5 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.5 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python 3.5" type="b5f07198:RTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.5 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python 3.5" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.5 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python 3.5" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.5 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python 3.5" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="PIL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,6 +208,8 @@
       <recent name="D:\Research work\CIS\src\Gender_Estimation\feature_extraction_gender" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Research work\CIS\src\Age_Estimation\face_Featcher_Extraction" />
+      <recent name="D:\Research work\CIS\test_data\test_video" />
       <recent name="D:\Research work\CIS\datasets_for_training\gender_dataset" />
       <recent name="D:\Research work\CIS\src\Gender_Estimation" />
       <recent name="D:\Research work\CIS\src\Abnormal_Cloth_Detaction\dataset_creator" />
@@ -196,26 +227,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.extract_face_featurs_data">
-    <configuration name="emotion_detaction_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CIS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Emotion-Recognition" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Emotion-Recognition/emotion_detaction_image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="extract_face_featurs_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.face_Wrinlkes">
+    <configuration name="face_Wrinlkes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,7 +240,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="face_fetchers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_fetchers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +282,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="train_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,17 +290,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Gender_Estimation/training_models_gender" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Gender_Estimation/training_models_gender/train_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="video_emotion_color_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,11 +308,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Emotion-Recognition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Emotion-Recognition/video_emotion_color_demo.py" />
+      <option name="SCRIPT_NAME" value="D:\Research work\CIS\src\Age_Estimation\face_Featcher_Extraction\wrinkles_normalize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,17 +320,17 @@
     </configuration>
     <list>
       <item itemvalue="Python.full_worlflow" />
-      <item itemvalue="Python.emotion_detaction_image" />
-      <item itemvalue="Python.video_emotion_color_demo" />
-      <item itemvalue="Python.train_data" />
-      <item itemvalue="Python.extract_face_featurs_data" />
+      <item itemvalue="Python.face_Wrinlkes" />
+      <item itemvalue="Python.face_fetchers" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.extract_face_featurs_data" />
-        <item itemvalue="Python.train_data" />
-        <item itemvalue="Python.emotion_detaction_image" />
-        <item itemvalue="Python.video_emotion_color_demo" />
+        <item itemvalue="Python.face_Wrinlkes" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.face_fetchers" />
         <item itemvalue="Python.full_worlflow" />
       </list>
     </recent_temporary>
@@ -319,32 +350,173 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297414" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297414" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((160, 300, 380, 450))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((160, 3000, 380, 450))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((160, 100, 380, 450))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((160, 100, 320, 450))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((220, 100, 320, 450))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((220, 100, 320, 350))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((200, 100, 350, 350))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((200, 100, 350, 300))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>croped_image = image_PIL.crop((200, 100, 350, 220))
+croped_image.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/detact_full_person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/training_models_gender/train_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="148" column="44" selection-start-line="148" selection-start-column="44" selection-end-line="148" selection-end-column="44" />
+          <folding>
+            <element signature="e#32#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/detect_faces_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Emotion-Recognition/emotion_detaction_image.py" />
+    <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/training_models_gender/train_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="145" column="84" selection-end-line="210" />
+          <folding>
+            <element signature="e#32#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -360,13 +532,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/feature_extraction_gender/feature_size.py" />
-    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Abnormal_Cloth_Detaction/cloth_classification_keras/test_network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -381,66 +546,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/feature_extraction_gender/faceFeatcherRegionExtraction.py">
+    <entry file="file://$PROJECT_DIR$/src/Emotion-Recognition/video_emotion_color_demo.py" />
+    <entry file="file://$PROJECT_DIR$/src/Emotion-Recognition/emotion_detaction_image.py" />
+    <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/training_models_gender/train_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+        <state relative-caret-position="306">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Emotion-Recognition/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="148" column="44" selection-start-line="148" selection-start-column="44" selection-end-line="148" selection-end-column="44" />
+          <folding>
+            <element signature="e#32#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/full_worlflow.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/detect_faces_video.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Emotion-Recognition/video_emotion_color_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test_output/output_for_age/face_croped.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/training_models_gender/models/WRN_16_8.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Emotion-Recognition/emotion_detaction_image.py">
+    <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/feature_extraction_gender/faceFeatcherRegionExtraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gender_Estimation/training_models_gender/train_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="88" column="28" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_data/test_Images/example_test_images_for_age/wrinkles-old-man.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/extract_face_featurs_data.py">
+    <entry file="file://$PROJECT_DIR$/src/Emotion_Recognition/emotion_detaction_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="145" column="84" selection-end-line="210" />
+        <state>
           <folding>
-            <element signature="e#32#67#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/detect_faces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_fetchers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/test_Images/example_test_images_for_emotion/natural_test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/test_Images/example_test_images_for_age/wrinkles-old-woman.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="2547" selection-start-line="2547" selection-end-line="2547" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Criminal_Identification_System/detact_full_person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="101" column="67" lean-forward="true" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/test_Images/example_test_images_for_age/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#153#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/face_Wrinlkes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Age_Estimation/face_Featcher_Extraction/wrinkles_normalize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>

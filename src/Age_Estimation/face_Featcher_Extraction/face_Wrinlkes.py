@@ -5,15 +5,23 @@ import cv2
 import dlib
 import argparse
 import time
+from PIL.Image import Image
+from PIL import ImageFilter , Image
+from resizeimage import resizeimage
+import imutils
 import numpy as np
 
 # handle command line arguments
+from xlwt.Utils import cellrange_to_rowcol_pair
+
 ap = argparse.ArgumentParser()
 ap.add_argument('-i', '--image', required=False, default="../../../test_data/test_Images/example_test_images_for_age/wrinkles-old-man.jpg", help='path to image file')
 ap.add_argument('-w', '--weights', default='./mmod_human_face_detector.dat',
                 help='path to weights file')
 args = ap.parse_args()
-
+detector = dlib.get_frontal_face_detector()
+# predictor = dlib.shape_predictor(args["shape_predictor"])
+predictor = dlib.shape_predictor("../../../models/shape_predictor_68_face_landmarks.dat")
 # load input image
 image = cv2.imread(args.image)
 image2 = image
@@ -28,6 +36,7 @@ hog_face_detector = dlib.get_frontal_face_detector()
 # cnn_face_detector = dlib.cnn_face_detection_model_v1(args.weights)
 
 # apply face detection (hog)
+# image = imutils.resize(image, width=500,height=500)
 faces_hog = hog_face_detector(image, 1)
 
 end = time.time()
@@ -54,8 +63,8 @@ start = time.time()
 # write at the top left corner of the image
 # for color identification
 img_height, img_width = image.shape[:2]
-# cv2.putText(image, "HOG", (img_width-50,20), cv2.FONT_HERSHEY_SIMPLEX, 0.5,(0,255,0), 2)
-#cv2.putText(image, "CNN", (img_width - 50, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+# cv2.putText(image, "HOG", (img_width-50,20), cv2.FONT_HERSHEY_SIMPLEX, 0.10,(0,255,0), 2)
+#cv2.putText(image, "CNN", (img_width - 50, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.10, (0, 0, 255), 2)
 
 # display output image
 
@@ -65,11 +74,34 @@ cv2.imshow("face detection with dlib", image)
 cv2.imshow("croped face", image2)
 
 # save output image
-cv2.imwrite("cnn_face_detection.png", image2)
+image2 = cv2.resize(image2,(500,500))
+cv2.imwrite("../../../test_output/output_for_age/cnn_face_detection.png", image2)
 
+image_PIL = Image.open("../../../test_output/output_for_age/cnn_face_detection.png")
+# image_PIL = resizeimage.resize_width(image_PIL, 500,validate=False)
 
+#Right EYE
+croped_image = image_PIL.crop((110, 80, 250, 220))
+blurd_image = croped_image.filter(ImageFilter.GaussianBlur(radius=10))
+image_PIL.paste(blurd_image, (110, 80, 250, 220))
 
-lap = cv2.Canny(image2, 250, 100)
+#Left EYE
+croped_image = image_PIL.crop((300, 80, 430, 220))
+blurd_image = croped_image.filter(ImageFilter.GaussianBlur(radius=10))
+image_PIL.paste(blurd_image,(300, 80, 430, 220))
+
+#Nose
+croped_image = image_PIL.crop((220, 100, 320, 350))
+blurd_image = croped_image.filter(ImageFilter.GaussianBlur(radius=10))
+image_PIL.paste(blurd_image, (220, 100, 320, 350))
+
+#Mouth
+croped_image = image_PIL.crop((160, 300, 380, 450))
+blurd_image = croped_image.filter(ImageFilter.GaussianBlur(radius=10))
+image_PIL.paste(blurd_image,(160, 300, 380, 450))
+#image_PIL.show()
+
+lap = cv2.Canny(np.array(image_PIL), 120, 80)
 lap = cv2.resize(lap,(300,300))
 cv2.imshow("Laplacian", lap)
 
