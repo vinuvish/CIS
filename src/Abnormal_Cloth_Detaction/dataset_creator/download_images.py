@@ -4,9 +4,9 @@
 # import the necessary packages
 from imutils import paths
 import argparse
-import requests
 import cv2
 import os
+from security import safe_requests
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -25,7 +25,7 @@ total = 0
 for url in rows:
 	try:
 		# try to download the image
-		r = requests.get(url, timeout=60)
+		r = safe_requests.get(url, timeout=60)
 
 		# save the image to disk
 		p = os.path.sep.join([args["output"], "{}.jpg".format(
